@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .max-container {
+    max-width:1440px;
+    margin:0 auto;
+  }
+
+.info-text {
+  @apply font-arial
+  text-gray-600 text-lg leading-7;
+}
+.font-arial{
+  @apply font-serif;
+}
+}
